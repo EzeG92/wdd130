@@ -57,7 +57,7 @@ header nav a:hover {
 }
 h1 {
     position: absolute;
-    font-family: var(--paragraph-font);
+    font-family: var(--heading-font);
     color: var(--primary-color);
     text-align: center;
     width: 100%;
@@ -67,7 +67,7 @@ h1 {
 }
 h2 {
     font-family: var(--heading-font);
-    color: var(--accent1-color);
+    color: var(--secondary-color);
 }
 p {
     font-family: var(--paragraph-font);
@@ -95,11 +95,12 @@ p {
     width: 350px;
     padding: 60px;
 }
-.hero article p {
-    padding: 80px;
-    color: var(--primary-color);
+.hero article h3{
+    padding: 100px;
+    color: var(--secondary-color);
     font-size: 22px;
     text-align: center;
+    font-family: var(--paragraph-font);
 }
 .history {
     display: grid;
@@ -120,7 +121,6 @@ p {
     margin: 10px;
     text-align: center;
     line-height: 30px;
-
 }
 .historyImg {
     display: flex;
@@ -134,7 +134,7 @@ p {
     background-color: var(--accent1-color);
 }
 .adventure h2 {
-    color: var(--primary-color);
+    color: var(--secondary-color);
     display: grid;
     justify-content: center;
     font-size: 30px;
