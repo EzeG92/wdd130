@@ -34,7 +34,6 @@ label, input, button, select, textarea {
     font-family: Arial, Helvetica, sans-serif;
 }
 label{
-    text-align: center;
     padding-right: 1rem;
 }
 input, select, textarea {
