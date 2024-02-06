@@ -222,7 +222,7 @@ figcaption {
 .form {
     display: flex;
     background-color: var(--accent1-color);
-    height: 600px;
+    height: 800px;
     justify-content: center;
     align-items: center;
 }
@@ -232,6 +232,11 @@ form {
     padding: 3rem 6rem 3rem 6rem;
     border-radius: 0.5rem;
     background-color: white;
+    height: 600px;
+}
+form h2 {
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
 .form-item {
     display: grid;
