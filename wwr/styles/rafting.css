@@ -154,7 +154,7 @@ p {
     height: auto;
 }
 figure {
-    border: 2px black solid;
+    border: 1px black solid;
     display: flex;
     flex-flow: column;
     max-width: 350px;
@@ -167,6 +167,111 @@ figcaption {
     font: var(--paragraph-font);
     padding: 3px;
     text-align: center;
+}
+.infContainer {
+    display: grid;
+    width: 1200px;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 100px;
+    margin-top: 100px;
+}
+.infItem1 {
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    font-size: 20px;
+}
+.infItem2 {
+    grid-column: 2/3;
+}
+.infItem2 iframe {
+    width: 350px;
+    height: 300px;
+    border: none;
+}
+.team {
+    margin-top: 80px;
+    text-align: center;
+    height: 500px;
+    background-color: whitesmoke;
+}
+.team h2 {
+    padding-top: 20px;
+}
+.teamFig {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.teamFig div {
+    display: flex;
+    flex-direction: column;
+}
+.teamFig img {
+    width: 450px;
+    height: auto;
+}
+.teamFig p {
+    margin-top: 20px;
+    font-weight: bold;
+}
+.form {
+    display: flex;
+    background-color: var(--accent1-color);
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    display: grid;
+    width: 400px;
+    padding: 3rem 6rem 3rem 6rem;
+    border-radius: 0.5rem;
+    background-color: white;
+}
+.form-item {
+    display: grid;
+    align-items: center;
+}
+.form-item1 input, textarea{
+    border: 2px solid rgb(0, 0, 0, 0.1);
+    border-radius: 0.3rem;
+    height: 30px;
+}
+.form-item3 {
+    gap: 0.5rem;
+}
+.form-item3 div {
+    padding-left: 4%;
+}
+.form-item label {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: var(--paragraph-font);
+}
+.form-itemCheck {
+    display: flex;
+    justify-content: space-around;
+}
+button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: .2rem;
+    font-size: 0.8rem;
+    width: 100px;
+    height: 40px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+button:hover {
+    background-color: var(--accent1-color);
 }
 footer {
     display: grid;
@@ -192,4 +297,10 @@ footer nav a {
 }
 footer nav a img {
     width: 30px;
+}
+footer a {
+    display: grid;
+    grid-column: 2/3;
+    justify-content: center;
+    text-decoration: none;
 }
