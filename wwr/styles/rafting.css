@@ -234,9 +234,12 @@ form {
     background-color: white;
     height: 600px;
 }
-form h2 {
-    margin: 0 auto;
-    margin-bottom: 30px;
+form h1 {
+    color: black;
+    position:initial;
+    text-align:center;
+    font-family: var(--paragraph-font); 
+    font-size: 25px;
 }
 .form-item {
     display: grid;
