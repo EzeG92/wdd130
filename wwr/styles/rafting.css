@@ -350,7 +350,7 @@ button:hover {
 }
 table {
     border-collapse: collapse;
-    width: 80%;
+    width: 90%;
     margin-top: 80px;
     margin-bottom: 80px;
     font-family: var(--paragraph-font);
