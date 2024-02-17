@@ -121,6 +121,7 @@ p {
     margin: 10px;
     text-align: center;
     line-height: 30px;
+    align-items: center;
 }
 .historyImg {
     display: flex;
