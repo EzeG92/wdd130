@@ -82,15 +82,20 @@ p {
     padding: 0 7rem 0 7rem;
     margin-top: -500px;
 }
-.bannerText h2 , .bannerText p {
+.bannerText h1 , .bannerText p {
     grid-column: 3/4;
     padding: 20px;
     background-color: var(--primary-color);
     opacity: 0.9;
+    width: 100%;
 }
-.bannerText h2 {
+.bannerText h1 {
+    position: initial;
     font-family: var(--heading-font);
     font-size: 25px;
+    text-shadow: none;
+    color: var(--secondary-color);
+    text-align: start;
 }
 .bannerText p {
     font-family: var(--paragraph-font);
