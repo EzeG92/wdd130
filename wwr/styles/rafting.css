@@ -72,7 +72,7 @@ h2 {
 p {
     font-family: var(--paragraph-font);
 }
-.homeBanner {
+.homeBanner img {
     width: 100%;
     height: auto;
 }
@@ -201,21 +201,20 @@ p {
 }
 .formNews {
     display: grid;
-    width: 100%;
     padding:0 7rem 3rem 7rem;
     grid-template-columns: 0.2fr 0.2fr 0.2fr;
-    background-color: var(--accent1-color);
-    margin-top: -80px;
+    margin-top: -100px;
     height: 50px;
+    background-color: var(--accent1-color);
 }
 input[type=text] {
-    width: 450px;
+    width: 400px;
     padding: 12px 20px;
     margin: 0;
     box-sizing: border-box;
 }
 input[type=email] {
-    width: 450px;
+    width: 400px;
     padding: 12px 20px;
     margin: 0;
     box-sizing: border-box;
@@ -551,7 +550,7 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-content: center;
-    height: 100px;
+    height: 120px;
 }
 footer p {
     display: grid;
@@ -572,8 +571,11 @@ footer nav a img {
     width: 30px;
 }
 footer a {
+    font-family: var(--paragraph-font);
+    font-size: 12px;
     display: grid;
     grid-column: 2/3;
     justify-content: center;
     text-decoration: none;
+    color: #000000;
 }
