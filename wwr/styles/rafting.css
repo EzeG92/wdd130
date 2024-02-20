@@ -79,7 +79,7 @@ p {
 .bannerText {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 0 7rem 0 7rem;
+    padding: 0 9rem 0 7rem;
     margin-top: -500px;
 }
 .bannerText h1 , .bannerText p {
